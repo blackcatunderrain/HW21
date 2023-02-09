@@ -3,8 +3,7 @@ from abc import abstractmethod, ABC
 
 class Storage(ABC):
     def __init__(self, items: dict, capacity: int):
-        self._items = items
-        self._capacity = capacity
+        pass
 
     @abstractmethod
     def add(self, name, quantity):
